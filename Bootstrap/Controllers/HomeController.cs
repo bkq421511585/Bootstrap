@@ -11,6 +11,15 @@ namespace Bootstrap.Controllers
         public ActionResult Index()
         {
             return View();
-        }     
+        }
+
+        /// <summary>
+        /// 登录页
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Login()
+        {
+            return View();
+        } 
     }
 }
